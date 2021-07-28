@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Board\" />
+    <None Remove="Ship\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Board\" />
+    <Folder Include="Ship\" />
+  </ItemGroup>
+</Project>

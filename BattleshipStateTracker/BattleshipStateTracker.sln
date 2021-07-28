@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleshipStateTracker.ConsoleApp", "BattleshipStateTracker.ConsoleApp\BattleshipStateTracker.ConsoleApp.csproj", "{E7AF8CCF-30BD-4DB6-AEDF-F85ADD4E0167}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C9CC5207-2725-422E-8FBF-AB856B9C716A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleshipStateTracker.Models", "BattleshipStateTracker.Models\BattleshipStateTracker.Models.csproj", "{AE0BDDC7-838D-4270-8690-75A0A7F23A94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleshipStateTracker.Core", "BattleshipStateTracker.Core\BattleshipStateTracker.Core.csproj", "{B53A0C5F-D554-4680-ADB2-4C64595C90A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{B38DC2FA-86D0-4F57-B43F-8D9A776D6EAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{EE049799-FAD1-42C9-81E1-A03C0509C048}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleshipStateTracker.Core.Tests", "BattleshipStateTracker.Core.Tests\BattleshipStateTracker.Core.Tests.csproj", "{BF403C66-D836-406E-B59B-97F6C97B09EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7AF8CCF-30BD-4DB6-AEDF-F85ADD4E0167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7AF8CCF-30BD-4DB6-AEDF-F85ADD4E0167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7AF8CCF-30BD-4DB6-AEDF-F85ADD4E0167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7AF8CCF-30BD-4DB6-AEDF-F85ADD4E0167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE0BDDC7-838D-4270-8690-75A0A7F23A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0BDDC7-838D-4270-8690-75A0A7F23A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0BDDC7-838D-4270-8690-75A0A7F23A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0BDDC7-838D-4270-8690-75A0A7F23A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B53A0C5F-D554-4680-ADB2-4C64595C90A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B53A0C5F-D554-4680-ADB2-4C64595C90A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B53A0C5F-D554-4680-ADB2-4C64595C90A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B53A0C5F-D554-4680-ADB2-4C64595C90A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF403C66-D836-406E-B59B-97F6C97B09EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF403C66-D836-406E-B59B-97F6C97B09EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF403C66-D836-406E-B59B-97F6C97B09EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF403C66-D836-406E-B59B-97F6C97B09EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88064B90-EEDB-4D25-8E15-ACBDAF87F0EA}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E7AF8CCF-30BD-4DB6-AEDF-F85ADD4E0167} = {C9CC5207-2725-422E-8FBF-AB856B9C716A}
+		{B53A0C5F-D554-4680-ADB2-4C64595C90A3} = {B38DC2FA-86D0-4F57-B43F-8D9A776D6EAB}
+		{AE0BDDC7-838D-4270-8690-75A0A7F23A94} = {EE049799-FAD1-42C9-81E1-A03C0509C048}
+		{BF403C66-D836-406E-B59B-97F6C97B09EB} = {B38DC2FA-86D0-4F57-B43F-8D9A776D6EAB}
+	EndGlobalSection
+EndGlobal

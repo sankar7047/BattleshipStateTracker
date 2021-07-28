@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BattleshipStateTracker.Models\BattleshipStateTracker.Models.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="FactoryService\" />
+    <None Remove="Internals\" />
+    <None Remove="Interfaces\" />
+    <None Remove="Exceptions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FactoryService\" />
+    <Folder Include="Internals\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Exceptions\" />
+  </ItemGroup>
+</Project>
